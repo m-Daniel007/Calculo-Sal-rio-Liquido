@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.container{
+    position: relative;
+    background-image: linear-gradient(to bottom, #dee340, #3fd376, #00b3b1, #008bc4, #2e5ca2);
+    height: 100vh;
+   
+}
+.calculadora{
+    border: 1px solid red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    background-image: url(imagem/simpsons.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px -15px 35px rgb(12, 1, 1);
+    
+
+}
+
+.calculadora h2{
+    
+    margin: 10px;
+    padding: 10px;
+    color:#fff;
+    text-shadow: 0px 5px 5px rgb(0, 0, 0);
+}
+#entrada{
+    padding: 4px;
+    text-align: center;
+    margin-top: 10px;
+    width: 50%;
+    height: 50%;
+    color:#fff;
+    font-size: 18px;
+    text-shadow: 0px 5px 5px rgb(0, 0, 0);
+    letter-spacing: 2px;
+
+}
+
+#resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    border-radius: 30px;
+    box-shadow: 1px 0px 1px rgb(0, 0, 0);
+    background: lightyellow;
+    margin-bottom: 20px;
+    color: #000;
+    letter-spacing: 1px;
+    text-align: center;
+    text-shadow:  0px -2px 1px rgb(204, 201, 45);
+    
+
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 30px;
+    color:rgba(13, 218, 218, 0.829);
+    width: 100%;
+    text-shadow: 10px 5px 5px rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+#btn{
+    width: 50%;
+    height: 20%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background: rgba(224, 240, 6, 0.582);
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+#btn:hover{
+    color: palegoldenrod;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+}
+
+input{
+    margin-top: 5px;
+  background-color: lightyellow;
+    color: #000;
+    text-align: center;
+    letter-spacing: 2px;
+}
